@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 16px;
+      }
+      a {
+        background-color: green;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 4px;
+        text-decoration: none;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      a:hover {
+        animation: pulse 1s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Duplicate HTML File Downloaded</h1>
+      <a href="{{ url_for('download', file_path=file_path) }}">Download File</a>
+    </div>
+  </body>
+</html>
