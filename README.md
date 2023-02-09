@@ -1,4 +1,5 @@
 # Web Cloner
+![Project Name](https://user-images.githubusercontent.com/59801139/217813531-b826bd26-145b-4dca-966a-8cafe5b874de.gif)
 
 Web Cloner is a Python script that takes a URL as input and downloads the files from the website, allowing you to save a copy of the website on your local machine.
 
